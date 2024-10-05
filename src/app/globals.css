@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+
+  }
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.black{
+  background: #fff;
+}
+
+.cadastro{
+  background: #ebe8e8;
+}
+
+.bg-gradient{
+
+  background: rgb(171,0,0);
+  background: linear-gradient(133deg, rgba(171,0,0,1) 0%, rgba(128,0,0,1) 56%, rgba(0,0,0,1) 100%);
+}
+
+.text-limon{
+  color: #ffee00;
+}
+
+.border-limon-500{
+  border-color: #b11a15 ;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.beneficios{
+  width: 30%;
+}
+
+.beneficiosmob{
+  width: 70%;
+}
+
+.h1-beneficios{
+  height: 30px;
+}
+
+.info{
+  font-size: 0.5rem;
+  line-height: 1rem; /* 16px */
+}
+
+.tam-ju{
+  width: 70%;
+}
